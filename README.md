@@ -19,3 +19,13 @@ Disconnecting from WebSocket server.
 ```swift
 WSManager.shared.disconnect()
 ```
+
+Set the time interval
+```swift
+WSManager.shared.timeInterval = 5
+```
+
+Send a message to the server
+```swift
+WSManager.shared.send(message: "YOURMESSAGE")
+```
