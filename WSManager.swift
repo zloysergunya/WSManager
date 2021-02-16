@@ -11,7 +11,7 @@ class WSManager {
     public static let shared = WSManager()
     private init(){}
         
-    let webSocketTask = URLSession(configuration: .default).webSocketTask(with: URL(string: "wss://ws.finnhub.io?token=c0ljtrn48v6orbr1fv3g")!)
+    let webSocketTask = URLSession(configuration: .default).webSocketTask(with: URL(string: "wss://link/")!)
     private var timer: Timer?
     var timeInterval: TimeInterval = 2
     
