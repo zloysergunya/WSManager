@@ -1,5 +1,7 @@
 # WSManager
 
+Simple WebSocket manager.
+
 Connecting to WebSocket server.
 ```swift
 WSManager.shared.send(message: "{\"type\":\"subscribe\",\"symbol\":\"AAPL\"}")
