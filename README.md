@@ -10,8 +10,6 @@ let webSocketTask = URLSession(configuration: .default).webSocketTask(with: URL(
 
 Connecting to WebSocket server.
 ```swift
-WSManager.shared.send(message: "{\"type\":\"subscribe\",\"symbol\":\"AAPL\"}")
-WSManager.shared.timeInterval = 5
 WSManager.shared.connect()
 ```
 
