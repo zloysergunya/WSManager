@@ -1,6 +1,7 @@
 # WSManager
+## Simple WebSocket manager.
 
-Simple WebSocket manager.
+Just add the file to your project and use it!
 
 Change the link to your server in WSManager
 ```swift
