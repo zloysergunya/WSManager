@@ -1,6 +1,5 @@
 //
 //  WSManager.swift
-//  YandexMDS2021
 //
 //  Created by Sergey Kotov on 16.02.2021.
 //
